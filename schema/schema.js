@@ -9,7 +9,11 @@ const {
 
 const users = [
     { id: '23', firstName: 'Bill', age: 20 },
-    { id: '47', firstName: 'Samantha', age: 21 }
+    { id: '47', firstName: 'Samantha', age: 21 },
+    { id: '42', firstName: 'frank', age: 22 },
+    { id: '37', firstName: 'Sant', age: 41 },
+    { id: '57', firstName: 'Ssetha', age: 51 },
+    { id: '87', firstName: 'Jon', age: 66 }
 ]
 
 const UserType = new GraphQLObjectType({
@@ -21,8 +25,8 @@ const UserType = new GraphQLObjectType({
     }
 });
 
-const RootQueryType = new GraphQLObjectType({
-    name: 'RootQuery',
+const RootQuery = new GraphQLObjectType({
+    name: 'RootQueryType',
     fields: {
         user: {
             type: UserType,
@@ -35,5 +39,5 @@ const RootQueryType = new GraphQLObjectType({
 });
 
 module.exports = new GraphQLSchema({
-    query: RootQueryType,
+    query: RootQuery,
 });
