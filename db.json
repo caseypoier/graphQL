@@ -1,21 +1,90 @@
 {
-    "users": [
-        { "id": 23, "firstName": "Bill", "age": 20, "companyId": 3},
-        { "id": 47, "firstName": "Samantha", "age": 21, "companyId": 3},
-        { "id": 48, "firstName": "frank", "age": 22, "companyId": 1},
-        { "id": 37, "firstName": "Sant", "age": 41, "companyId": 5},
-        { "id": 57, "firstName": "Ssetha", "age": 51, "companyId": 6},
-        { "id": 87, "firstName": "Jon", "age": 66, "companyId": 4},
-        { "id": 90, "firstName": "Sam", "age": 23, "companyId": 5},
-        { "id": 8, "firstName": "Erik", "age": 31, "companyId": 2},
-        { "id": 34, "firstName": "Jones", "age": 36, "companyId": 6}
-    ],
-    "companies": [
-        { "id": 1, "name": "Patagonia", "description": "Best Style" },
-        { "id": 2, "name": "REI", "description": "Outdoor retailer" },
-        { "id": 3, "name": "microsoft", "description": "Tech mini-giant" },
-        { "id": 4, "name": "apple", "description": "biggest tech giant" },
-        { "id": 5, "name": "Oath", "description": "up and coming player" },
-        { "id": 6, "name": "attt", "description": "sells phones" }
-    ]
+  "users": [
+    {
+      "id": 23,
+      "firstName": "Bill",
+      "age": 20,
+      "companyId": 3
+    },
+    {
+      "id": 47,
+      "firstName": "Bob",
+      "age": 21,
+      "companyId": 3
+    },
+    {
+      "id": 48,
+      "firstName": "frank",
+      "age": 22,
+      "companyId": 1
+    },
+    {
+      "id": 37,
+      "firstName": "Sant",
+      "age": 41,
+      "companyId": 5
+    },
+    {
+      "id": 57,
+      "firstName": "Ssetha",
+      "age": 51,
+      "companyId": 6
+    },
+    {
+      "id": 87,
+      "firstName": "Jon",
+      "age": 66,
+      "companyId": 4
+    },
+    {
+      "id": 90,
+      "firstName": "Sam",
+      "age": 23,
+      "companyId": 5
+    },
+    {
+      "id": 8,
+      "firstName": "Erik",
+      "age": 31,
+      "companyId": 2
+    },
+    {
+      "id": 34,
+      "firstName": "Jones",
+      "age": 36,
+      "companyId": 6
+    }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "name": "Patagonia",
+      "description": "Best Style"
+    },
+    {
+      "id": 2,
+      "name": "REI",
+      "description": "Outdoor retailer"
+    },
+    {
+      "id": 3,
+      "name": "microsoft",
+      "description": "Tech mini-giant"
+    },
+    {
+      "id": 4,
+      "name": "apple",
+      "description": "biggest tech giant"
+    },
+    {
+      "id": 5,
+      "name": "Oath",
+      "description": "up and coming player"
+    },
+    {
+      "id": 6,
+      "name": "attt",
+      "description": "sells phones"
+    }
+  ]
 }
